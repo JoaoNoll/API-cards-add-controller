@@ -8,10 +8,10 @@ module.exports = {
     underscoredAll: true,
   },
   dialect: 'postgres',
-  dialectOptions: {
+  dialectOptions:
     ssl: {
-      require: true,
-      rejectUnauthorized: false,
+  require: true,
+    rejectUnauthorized: false,
     },
   },
 };
